@@ -1,5 +1,4 @@
-# snake_n_ladder.py
-# a basic snake and ladder game
+# snake_n_ladder
 import random
 p1=input('enter your name= ')
 print ('bonjour ',p1)
@@ -116,6 +115,146 @@ if d1==6 and d2!=6 :
         elif l==91:
             l=88
             print(p1,'you took aladder to',l)
+        elif d4==6 and l==99:
+            print(p1,'was bit by snake\nand is at',63)
+            l=63
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==97:
+            print(p1,'was bit by snake\nand is at',87)
+            l=87
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==8:
+            print(p1,'was bit by snake\nand is at',4)
+            l=4
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==18:
+            print(p1,'was bit by snake\nand is at',7)
+            l=7
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==26:
+            print(p1,'was bit by snake\nand is at',10)
+            l=10
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==35:
+            print(p1,'was bit by snake\nand is at',5)
+            l=5
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==51:
+            print(p1,'was bit by snake\nand is at',6)
+            l=6
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==54:
+            print(p1,'was bit by snake\nand is at',36)
+            l=36
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==56:
+            print(p1,'was bit by snake\nand is at',1)
+            l=1
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==60:
+            print(p1,'was bit by snake\nand is at',23)
+            l=23
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==75:
+            print(p1,'was bit by snake\nand is at',28)
+            l=28
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==83:
+            print(p1,'was bit by snake\nand is at',43)
+            l=45
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==85:
+            print(p1,'was bit by snake\nand is at',59)
+            l=59
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==90:
+            print(p1,'was bit by snake\nand is at',48)
+            l=48
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==92:
+            print(p1,'was bit by snake\nand is at',25)
+            l=25
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==81:
+            l=98
+            print ('computer is unlocked')
+            print(p1,'took a ladder to',l)
+            x=101
+        elif d4==6 and l==73:
+            l=86
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==61:
+            l=78
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==57:
+            l=76
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==49:
+            l=67
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==38:
+            l=59
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==22:
+            l=37
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==74:
+            l=17
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==15:
+            l=34
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==11:
+            l=28
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==6:
+            l=14
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==3:
+            l=20
+            print(p1,'took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d4==6 and l==91:
+            l=88
+            print(p1,'you took aladder to',l)
+            print ('computer is unlocked')
+            x=101
         elif d4==6:
             print ('computer is unlocked')
             x=101
@@ -514,8 +653,149 @@ elif d1!=6 and d2==6:
         elif n==3:
             n=20
             print('computer took a ladder to',n)
-        elif n==91:
+        elif n==88:
+            n=91
+            print('computer took a ladder to',n)
+        elif d3==6 and n==99:
+            print('computer was bit by snake\nand is at',63)
+            n=63
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==97:
+            print('computer was bit by snake\nand is at',87)
+            n=87
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==8:
+            print('computer was bit by snake\nand is at',4)
+            n=4
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==18:
+            print('computer was bit by snake\nand is at',7)
+            n=7
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==26:
+            print('computer was bit by snake\nand is at',10)
+            n=10
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==35:
+            print('computer was bit by snake\nand is at',5)
+            n=5
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==51:
+            print('computer was bit by snake\nand is at',6)
+            n=6
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==54:
+            print('computer was bit by snake\nand is at',36)
+            n=36
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==56:
+            print('computer was bit by snake\nand is at',1)
+            n=1
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==60:
+            print('computer was bit by snake\nand is at',23)
+            n=23
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==75:
+            print('computer was bit by snake\nand is at',28)
+            n=28
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==83:
+            print('computer was bit by snake\nand is at',43)
+            n=45
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==85:
+            print('computer was bit by snake\nand is at',59)
+            n=59
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==90:
+            print('computer was bit by snake\nand is at',48)
+            n=48
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==92:
+            print('computer was bit by snake\nand is at',25)
+            n=25
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==81:
+            n=98
+            print ('computer is unlocked')
+            print('computer took a ladder to',l)
+            x=101
+        elif d3==6 and n==73:
+            n=86
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==61:
+            n=78
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==57:
+            n=76
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==49:
+            n=67
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==38:
+            n=59
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==22:
+            n=37
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==74:
+            n=17
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==15:
+            n=34
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==11:
+            n=28
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==6:
+            n=14
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==3:
+            n=20
+            print('computer took a ladder to',l)
+            print ('computer is unlocked')
+            x=101
+        elif d3==6 and n==91:
             n=88
+            print('computer you took aladder to',l)
+            print ('computer is unlocked')
+            x=101
         elif d3==6:
             print (p1,'is unlocked')
             x=101
